@@ -3,3 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     button.addEventListener("click", calculateBMI);
 })
 
+function calculateBMI(){
+    let height = parseInt(document.getElementById("height").value);
+    let weight = parseInt(document.getElementById("weight").value);
+}
