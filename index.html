@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -27,19 +27,21 @@
     </nav>
     <div class="inputarea">
         <h2>Enter your height and weight to find out your body mass index</h2>
-        <form id="form" class="form">
-            <label for="height">Height</label><br>
+        <form id="form" class="form" onsubmit="return false">
+            <label for="height">Height(cm)</label><br>
             <input type="text" id="height" placeholder="enter your height"><br>
-            <label for="weight">Weight</label><br>
+            <label for="weight">Weight(kg)</label><br>
             <input type="text" id="weight" placeholder="enter your weight"><br>
-            <p></p>
-            <input type="submit" id="submit">
+            <input type="submit" id="submit" onclick="calculateBMI()">
         </form>
     </div>
     <div class="resultarea">
-        <H3>your body mass index is:</H3>
+        <H3 class="top">your body mass index is:</H3>
 
         <h1 id="result"></h1>
+        <div id="container">
+            <p id="info"></p>
+        </div>
 
     </div>
 
