@@ -12,7 +12,13 @@ function calculateBMI(){
         result.innerHTML = "Please enter a valid height";
     }else if(weight === "" || isNaN(weight)){
         result.innerHTML = "Please enter a valid weight";
+    }else{
+        let bmi = (weight / ((height * height) 
+        / 10000)).toFixed(2);
     }
 
+    result.innerHTML = <h1>${bmi}</h1>;
 
 }
+
+console.log(hello)
