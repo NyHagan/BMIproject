@@ -6,4 +6,5 @@ document.addEventListener("DOMContentLoaded", function(){
 function calculateBMI(){
     let height = parseInt(document.getElementById("height").value);
     let weight = parseInt(document.getElementById("weight").value);
+    let result = document.getElementById("result");
 }
