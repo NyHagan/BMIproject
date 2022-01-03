@@ -7,4 +7,12 @@ function calculateBMI(){
     let height = parseInt(document.getElementById("height").value);
     let weight = parseInt(document.getElementById("weight").value);
     let result = document.getElementById("result");
+
+    if (height === "" || isNaN(height)) {
+        result.innerHTML = "Please enter a valid height";
+    }else if(weight === "" || isNaN(weight)){
+        result.innerHTML = "Please enter a valid weight";
+    }
+
+
 }
