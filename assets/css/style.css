@@ -5,8 +5,13 @@
 
 body{
     background: rgb(160, 187, 202);
+    text-align: center;
 }
 
 .top{
-    color: rgb(27, 36, 44);
+    color: rgb(255, 255, 255);
+}
+
+.enter{
+    color: aqua;
 }
