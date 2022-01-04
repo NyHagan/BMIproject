@@ -20,6 +20,7 @@ body{
 input{
     padding-bottom: 15px;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 #submit:hover{
@@ -32,7 +33,7 @@ nav{
     background-color: rgb(168, 218, 220);
     width: 150px;
     border-radius: 20px;
-    display:inline-block;
+    
 }
 
 input{
@@ -41,4 +42,10 @@ input{
 
 a{
     color: rgb(29, 53, 87);
+}
+
+.inputarea{
+    background-color: rgb(241, 250, 238);
+    border: 5px solid black;
+    border-radius: 100px;
 }
