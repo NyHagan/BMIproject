@@ -6,6 +6,7 @@
 body{
     background: rgb(69, 123, 157);
     text-align: center;
+    
 }
 
 .top{
@@ -23,6 +24,7 @@ input{
 
 #submit:hover{
     background-color: blanchedalmond;
+    transform: scale(1.2);
 }
 
 nav{
@@ -30,8 +32,13 @@ nav{
     background-color: rgb(168, 218, 220);
     width: 150px;
     border-radius: 20px;
+    display:inline-block;
 }
 
 input{
     text-align: center;
+}
+
+a{
+    color: rgb(29, 53, 87);
 }
