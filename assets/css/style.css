@@ -24,3 +24,11 @@ input{
 #submit:hover{
     background-color: blanchedalmond;
 }
+
+nav{
+    background-position: center;
+    background-color: rgb(77, 184, 130);
+    width: 150px;
+    border-radius: 20px;
+    
+}
