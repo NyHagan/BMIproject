@@ -45,11 +45,14 @@ a{
 }
 
 .inputarea{
+    width:600px;
+    position:relative;
+    left:0;
+    right:0;
+    margin:-13px auto 0 auto;
     background-color: rgb(241, 250, 238);
-    width: 600px;
     border: 5px solid black;
     border-radius: 100px;
-    display:inline-block;
 }
 
 .resultarea{
