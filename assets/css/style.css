@@ -4,7 +4,7 @@
 
 
 body{
-    background: rgb(160, 187, 202);
+    background: rgb(69, 123, 157);
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ input{
 
 nav{
     background-position: center;
-    background-color: rgb(77, 184, 130);
+    background-color: rgb(168, 218, 220);
     width: 150px;
     border-radius: 20px;
 }
