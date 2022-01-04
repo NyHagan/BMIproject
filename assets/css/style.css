@@ -9,7 +9,7 @@ body{
 }
 
 .top{
-    color: rgb(255, 255, 255);
+    color: rgb(10, 10, 15);
 }
 
 .enter{
@@ -21,4 +21,6 @@ input{
     border-radius: 15px;
 }
 
-
+#submit:hover{
+    background-color: blanchedalmond;
+}
