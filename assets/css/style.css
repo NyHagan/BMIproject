@@ -45,18 +45,20 @@ a{
 }
 
 .inputarea{
-    width:600px;
-    position:relative;
-    left:0;
-    right:0;
     margin:-13px auto 0 auto;
     background-color: rgb(241, 250, 238);
     border: 5px solid black;
     border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
 .resultarea{
+    margin:-13px auto 0 auto;
     background-color: cadetblue;
     border: 2px solid beige;
-    border-radius: 40%;
+    border-radius: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
+
