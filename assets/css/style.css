@@ -45,7 +45,8 @@ a{
 }
 
 .inputarea{
-    margin:-13px auto 0 auto;
+    margin-left:50px;
+    margin-right:50px;
     background-color: rgb(241, 250, 238);
     border: 5px solid black;
     border-radius: 100px;
@@ -54,7 +55,7 @@ a{
 }
 
 .resultarea{
-    margin:-13px auto 0 auto;
+    
     background-color: cadetblue;
     border: 2px solid beige;
     border-radius: 100%;
