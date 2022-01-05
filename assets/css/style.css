@@ -87,11 +87,14 @@ footer{
 }
 
 a:hover{
-    transform: scale(1.5);
     color: aquamarine;
 }
 
 .icon{
     margin-left: 100px;
     margin-right: 100px;
+}
+
+i:hover{
+    transform: scale(1.5);
 }
