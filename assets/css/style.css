@@ -63,3 +63,12 @@ a{
     border-top-right-radius: 100px;
 }
 
+.prompt{
+    padding-top: 10px ;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container{
+    background-color: rgb(218, 230, 225);
+}
