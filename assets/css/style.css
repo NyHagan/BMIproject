@@ -18,9 +18,10 @@ body{
 }
 
 input{
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     border-radius: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #submit:hover{
@@ -36,9 +37,6 @@ nav{
     
 }
 
-input{
-    text-align: center;
-}
 
 a{
     color: rgb(29, 53, 87);
