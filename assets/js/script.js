@@ -1,4 +1,4 @@
-
+// this calculates the BMI and displays it for the user
 function calculateBMI(){
     const height = parseInt(document.getElementById("height").value);
     const weight = parseInt(document.getElementById("weight").value);
@@ -31,12 +31,13 @@ function displayInfo(){
 
 }
 
-
+//this toggles the 'again' button and makes it visible so the user can reset
 function displayReset(){
     const again = document.getElementById("reload");
         again.style.visibility ="visible";
 }
 
+//changes the text as soon as submit is clicked
 function changeText(){
     const text = document.getElementById("text");
         text.innerText = "Your Body Mass Index Is:";

@@ -6,7 +6,6 @@
 }
 
 
-
 *{
     box-sizing: border-box;
 }
@@ -42,10 +41,16 @@ input{
 nav{
     background-position: center;
     background-color: rgb(255, 232, 214);
-    width: 150px;
     border-radius: 20px;
-    text-align:justify;
-    
+    text-align:center;
+    margin-left: 80px;
+    margin-right:80px;
+}
+
+#menu li{
+   display: inline;
+   padding-left: 80px;
+   padding-right: 80px;
 }
 
 
@@ -98,6 +103,7 @@ footer{
     height:200px;
     margin-top:85px;
 }
+
 
 a:hover{
     color: aquamarine;
