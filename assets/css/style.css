@@ -86,8 +86,9 @@ footer{
     display: inline-flexbox;
 }
 
-.icon:hover{
+a:hover{
     transform: scale(1.5);
+    color: aquamarine;
 }
 
 .icon{
