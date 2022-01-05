@@ -115,3 +115,11 @@ ul{
 footer ul li{
     display:inline;
 }
+
+.aboutarea{
+    margin-left:50px;
+    margin-right:50px;
+    background-color: rgb(241, 250, 238);
+    border: 5px solid black;
+    border-radius: 100px;
+}
