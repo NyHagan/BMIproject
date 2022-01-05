@@ -12,7 +12,7 @@
 
 
 body{
-    background: rgb(69, 123, 157);
+    background: rgb(152, 193, 217);
     text-align: center;
     font-family: "Sorts Mill Goudy";
 }
@@ -33,13 +33,13 @@ input{
 }
 
 #submit:hover{
-    background-color: blanchedalmond;
+    background-color: rgb(250, 121, 33);
     transform: scale(1.2);
 }
 
 nav{
     background-position: center;
-    background-color: rgb(168, 218, 220);
+    background-color: rgb(188, 231, 132);
     width: 150px;
     border-radius: 20px;
     text-align:justify;
@@ -54,7 +54,7 @@ a{
 .inputarea{
     margin-left:50px;
     margin-right:50px;
-    background-color: rgb(241, 250, 238);
+    background-color: rgb(247, 219, 167);
     border: 5px solid black;
     border-radius: 100px;
     border-top-left-radius: 100px;
@@ -63,7 +63,7 @@ a{
 
 .resultarea{
     
-    background-color: cadetblue;
+    background-color: rgb(224, 251, 252);
     border: 2px solid beige;
     border-radius: 100%;
     border-top-left-radius: 100px;
