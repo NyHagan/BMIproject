@@ -32,7 +32,7 @@
             <input  type="text" id="height" placeholder="enter your height"><br>
             <label  for="weight">Weight(kg)</label><br>
             <input type="text" id="weight" placeholder="enter your weight"><br>
-            <input type="submit" id="submit" onclick="calculateBMI()">
+            <input type="submit" id="submit" onclick="calculateBMI(); displayReset()">
         </form>
     </div>
     <div class="resultarea">
@@ -44,7 +44,7 @@
 
     </div>
 
-    <input class="again" type="reset" value="Again" onclick="document.location.reload(true)">
+    <input id="reload" class="again" type="reset" value="Again" onclick="document.location.reload(true)">
 
 
 

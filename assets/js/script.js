@@ -31,8 +31,13 @@ function displayInfo(){
     }else{
         info.innerHTML ="<p>You are OVERWEIGHT</p>" ;
     }
-    
 
+}
+
+
+function displayReset(){
+    let again = document.getElementById("reload");
+        again.style.visibility ="visible";
 }
 
 

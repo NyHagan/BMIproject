@@ -73,7 +73,12 @@ a{
     background-color: rgb(218, 230, 225);
 }
 
+.again{
+    visibility: hidden;
+}
+
 .again:hover{
     background-color: blanchedalmond;
     transform: scale(1.2);
 }
+
