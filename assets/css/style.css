@@ -82,9 +82,8 @@ a{
 }
 
 footer{
-    height:150px;
-    position: relative;
-    display: inline-flexbox;
+    height:200px;
+    
 }
 
 a:hover{
@@ -92,8 +91,8 @@ a:hover{
 }
 
 .icon{
-    margin-left: 100px;
-    margin-right: 100px;
+    height:100px;
+    margin:1%;
 }
 
 i:hover{
