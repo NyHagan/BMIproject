@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap linked here -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
@@ -12,7 +13,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="maintitle"><strong>BODY MASS INDEX CHECKER V1.0</strong></h1>
+    <!-- Added strong to the title to make it more visible -->
+    <h1 class="maintitle"><strong>BODY MASS INDEX CHECKER Version 1.0</strong></h1>
+
+    <!-- Nav bar allows for easier changes in future -->
     <nav>
         <div class="pages">
             <ul>
@@ -25,6 +29,8 @@
             </ul>
         </div>
     </nav>
+
+    <!-- added 'return false' to form prevent the page from reloading -->
     <div class="inputarea">
         <h2 class="prompt">Enter your height and weight <br>to find out your body mass index</h2>
         <form id="form" class="form" onsubmit="return false">
@@ -35,6 +41,8 @@
             <input type="submit" id="submit" value="check my BMI" onclick="calculateBMI(); displayReset(); changeText()">
         </form>
     </div>
+
+    <!-- there is a function in javascript, change Text that changes the H3 once there is a click -->
     <div class="resultarea">
         <H3 id="text" class="top">Your Body Mass Index will be displayed below</H3>
         <h1 id="result"></h1>
@@ -44,6 +52,7 @@
 
     </div>
 
+    <!-- Inserted this to allow for quicker reloads,there is a function that makes it visible, invisible by default -->
     <input id="reload" class="again" type="reset" value="Again" onclick="document.location.reload(true)">
 
     <footer class="footer">
