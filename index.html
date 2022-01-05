@@ -32,11 +32,11 @@
             <input  type="text" id="height" placeholder="enter your height"><br>
             <label  for="weight">Weight(kg)</label><br>
             <input type="text" id="weight" placeholder="enter your weight"><br>
-            <input type="submit" id="submit" onclick="calculateBMI(); displayReset()">
+            <input type="submit" id="submit" onclick="calculateBMI(); displayReset(); changeText()">
         </form>
     </div>
     <div class="resultarea">
-        <H3 class="top">your body mass index is:</H3>
+        <H3 id="text" class="top">Your Body Mass Index will be displayed below</H3>
         <h1 id="result"></h1>
         <div id="container">
             <p id="info"></p>

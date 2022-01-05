@@ -40,5 +40,10 @@ function displayReset(){
         again.style.visibility ="visible";
 }
 
+function changeText(){
+    let text = document.getElementById("text");
+        text.innerText = "Your Body Mass Index Is:";
+}
+
 
 console.log("hello");
