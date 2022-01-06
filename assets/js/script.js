@@ -44,4 +44,3 @@ function changeText(){
 }
 
 
-console.log("hello");
