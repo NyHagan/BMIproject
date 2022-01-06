@@ -2,6 +2,8 @@
 
 Check my BMI is a simple program designed to swiftly and accurately determine the Body Mass index of the user. 
 
+![App Screenshot](assets/images/Screenshot7.png)
+
 # User Experience
 
 ## Project Goals
