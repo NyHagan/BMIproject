@@ -1,108 +1,145 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Check My BMI
 
-Welcome NyHagan,
+Check my BMI is a simple program designed to swiftly and accurately determine the Body Mass index of the user. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# User Experience
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Project Goals
+The goal of this project was to create an application that could provide value in the form of data to the user in a quick and timely manner.
 
-## Gitpod Reminders
+## User Goals
+* As a user, I want to be able to make sense of the webpage I am looking at.
+* As a user, I want to move about the website as easily as possible.
+* As a user, I want to be easily directed to where I need to input data.
+* As a user, I want to recieve results as soon asI have entered data.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Site Admin Goals
+* As the site admin, I want the main page of the site to convey as much information as possible about the nature and purpose of the site.
+* As the site admin, I want to make sure the user can navigate my pages wihout any hitches.
+* As the site admin, I want to include a page where users can learn more about BMI's.
+* As the site admin, I want to include ways in which the users can reach and interact with me as the website creator.
 
-`python3 -m http.server`
+## Design Choices
+I wanted the site to have a welcoming feel for all ages , and so went with a colour scheme I believe would be best for this. I gave the main area where data would be input a more bright feel, so that it would be the area noticed first upon entering the site.
 
-A blue button should appear to click: _Make Public_,
+## Color Reference
 
-Another blue button should appear to click: _Open Browser_.
+| Color             | rgb                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Navy Blue | rgb(152, 193, 217) |
+| Black | rgb(10, 10, 15) |
+| Aqua | rgb(0, 255, 255)|
+| Orange | rgb(250, 121, 33) |
+| Cream | rgb(247, 219, 167) |
+| Beige | rgb(245, 245, 220) |
+| Lime | rgb(218, 230, 225) |
+| Aquamarine | rgb(127, 125, 212) |
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## FONTS
+The main fonts used were Shizuru, Mali, and Sorts Mill Goudy, From Google Fonts.
+I felt these three complemented each other, Shizuru gives the title a playful feel while Mali and Sorts Mill Goudy add a more refined look to the page.
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+- Fullscreen mode
+- Cross platform
+- Responsive on all screen sizes
+- "About" Page for more infomation
+- Eye catching design
+- Socials page to get in touch with developer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## TECHNOLOGIES USED
 
-To log into the Heroku toolbelt CLI:
+- HTML
+- CSS
+- JAVASCRIPT
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Libraries/Frameworks used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Google Fonts : To link the fonts I used to the html 
+- Bootstrap : To help create a mobile first approach
+- Github : To store my repositories
+- Gitpod : All of my coding was done here
+- Git : Allowed me to push my work to the repository
 
-------
+# Running Tests
 
-## Release History
+ ## Validators used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The validators below were used to check my cide via URL to endure there were no errors with it.
+Javascript however was checked locally.
+ -  ## W3C Markup validator
+ Index.html : No errors were found 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ ![App Screenshot](assets/images/Screenshot1.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ About.html : No errors were found
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![App Screenshot](assets/images/Screenshot2.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ -  ## W3C CSS validator
+ Style.css : No errors were found
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![App Screenshot](assets/images/Screenshot3.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ -  ## JSHint Javascript code quality checker
+ Script.js : No errors were found 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ![App Screenshot](assets/images/Screenshot4.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing against my User Goals
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- ## As a user, I want to be able to make sense of the webpage I am looking at.
+I used a simple two page setup with a simplified colour scheme with a brief overview of the purpose of the site, allowing for a page that is very easy to understand.
+- ## As a user, I want to move about the website as easily as possible.
+All buttons and links are responsive, changing size to reflect where the user is, allowing the user to easily find their bearings around the site.
+- ## As a user, I want to be easily directed to where I need to input data.
+I Placed Large text showing where the data would need to be input, surrounded by bright colors and is hard to miss.
+- ## As a user, I want to recieve results as soon asI have entered data.
+Responsiveness is a priority for me, and so the site displays results as soon as the data is entered, swiftly and effectively.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing responsiveness on multiple screen sizes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+A program called Responsinator was used  in order to make sure that the site was responsive and worked well accross multiple screen sizes. No major issues were found.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![App Screenshot](assets/images/Screenshot5.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## BUGS
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Bug where the page would constantly reload upon clicking 'check my BMI'. I solved this by adding an onsubmit=return false property to the form this was contained in.
 
-------
+# Deployment
 
-## FAQ about the uptime script
+This Project was deployed via Github pages
 
-**Why have you added this script?**
+### Timeline
+- Repository was located after logging in : https://github.com/NyHagan/BMIproject
+- In the top right corner of where the commits are shown, the settings can be found.
+- Clicked on setting and located pages.
+- Selected 'main' branch and deisnated the default directory as '/(root)'
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Cloning My Repository
+- Locate My Repository via github : https://github.com/NyHagan/BMIproject
+- Click on the green 'code' button to create a local clone
 
-**How will this affect me?**
+![App Screenshot](assets/images/Screenshot6.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Support
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+For support, email nanaohagan@gmail.com 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Optimizations Roadmap
 
-**So….?**
+- animations
+- more data measurement metrics
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Authors
 
-**Can I opt out?**
+Nana Hagan
+- [@NyHagan](https://github.com/NyHagan)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Acknowledgements
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- My Mentor Spencer Barriball
+- Code Institute
+- The Learning People
